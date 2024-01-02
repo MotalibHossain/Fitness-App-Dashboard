@@ -6,7 +6,9 @@ function Navigation() {
     return (
         <div className="navigation">
             <Nav variant="tabs" defaultActiveKey="/">
-                <h1 className="mt-0">iTechEys</h1>
+                <Link to="/" className="text-decoration-none">
+                    <h1 className="mt-0">iTechEys</h1>
+                </Link>
                 <img width="48" height="48" src="https://img.icons8.com/color/48/exercise-skin-type-3.png" alt="exercise-skin-type-3"/>
                 <Nav.Item>
                     <NavLink eventKey="link-1" className="NavLink nav-link" activeclassname="nav-link--active" to="/">
