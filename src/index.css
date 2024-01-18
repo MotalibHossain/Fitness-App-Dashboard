@@ -242,7 +242,6 @@ p {
 }
 
 @media (min-width: 992px) and (max-width: 1199px){
-  /* images gallary  */
   .image__gallary .image_body{
     grid-template-columns: repeat(2, 1fr) !important;
   }
